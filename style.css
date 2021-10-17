@@ -101,6 +101,13 @@ p{
     padding: 3%;
 }
 
+
+#AboutMe{
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    padding: 2% 7%;
+}
+
 @media (max-width: 975px){
 
     #title{
@@ -115,5 +122,11 @@ p{
     }
     #contact{
         font-size: 1em;
+    }
+}
+
+@media (min-width: 620px){
+    .portfolio-img{
+        width: 50%;
     }
 }
